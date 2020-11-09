@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "category": "Updates",
+        "extension": "xlsx" ,
+        "sheets": [{
+            "sheetName": "sales",
+            "cols": [
+                {
+                    "colname": "Segment",
+                    "rules": ["alphaNum"]
+                },
+                {
+                    "colname": "Country",
+                    "rules": []
+                },
+                {
+                    "colname": "Product",
+                    "rules": []
+                },
+                {
+                    "colname": "Units Sold",
+                    "rules": []
+                },
+                {
+                    "colname": "Sale Price",
+                    "rules": []
+                },
+                {
+                    "colname": "Gross Sales",
+                    "rules": []
+                }
+            ]
+        }]
+        
+    },
+    {
+        "id": 2,
+        "category": "CDC Releases",
+        "extension": "txt"
+    }
+]
